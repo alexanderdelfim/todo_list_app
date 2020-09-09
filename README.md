@@ -43,7 +43,18 @@ $ composer update
 ### Execução do projeto
 
 Para executar o projeto, voce terá que configurar os dados do seu banco de dados dentro 
-do arquivo `.env`, de preferencia um banco ressem criado para evitar erros no processo.
+do arquivo `.env`, basta copiar o arquivo `.env-example` e preencher os seguintes camposnele.
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=todo_list_app
+DB_USERNAME=seu_usuario
+DB_PASSWORD=sua_senha
+```
+
+ de preferencia um banco ressem criado para evitar erros no processo.
 Após isso, escreva o seguinte comando no terminal:
 
 ```
