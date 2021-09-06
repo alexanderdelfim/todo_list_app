@@ -1,6 +1,6 @@
 # Todo List App com Laravel
 
-Pequeno projeto realizado como teste para vaga de estagio da GPMP
+Pequeno projeto realizado como teste para vaga de estagio
 
 Tecnologias: Bootstrap 4, PHP, Framework Laravel 7x
 
